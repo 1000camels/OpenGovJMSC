@@ -1,0 +1,15 @@
+/*
+Theme Name:     OpenGov project
+Theme URI:      http://opengov.jmsc.hku.hk
+Description:    This is a Largo project child theme for the OpenGov project at the JMSC
+Author:         Darcy W. Christ
+Author URI:     http://1000camels.com
+Template:       largo
+Version:        0.1.0
+*/
+
+@import url("../largo/style.css");
+
+.navbar-inner {
+	background-color: #005480;
+}
