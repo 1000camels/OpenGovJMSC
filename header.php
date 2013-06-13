@@ -192,9 +192,11 @@
 	</nav>
 	<?php endif; ?>
 
+	<?php if(is_home()) { ?>
 	<header class="clearfix">
 		<h2 class="visuallyhidden"><a href="http://transparent.local/wordpress/">Transparent - <span class="tagline">just site for JMSC themes</span></a></h2>
-		<a href="http://transparent.local/wordpress/~/openland/"><img class="header_img2" src="http://transparent.local/wordpress/wp-content/uploads/2013/06/OpenLand1.png" alt=""></a>	
+		<a href="<?php echo $current_url; ?>/~/openland/"><img class="header_img2" src="<?php echo $current_url; ?>/wp-content/uploads/2013/06/OpenLand1.png" alt=""></a>	
 	</header>
+	<?php } ?>
 
 <div id="main" class="row-fluid clearfix">

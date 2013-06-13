@@ -8,7 +8,7 @@ Template:       largo
 Version:        0.1.0
 */
 
-@import url("../largo/style.css");
+@import url("../Largo/style.css");
 
 .navbar-inner {
 	background-color: #005480;
